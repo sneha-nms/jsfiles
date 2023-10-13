@@ -1,0 +1,57 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+background-color: aqua;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+width: 90%;
+height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subcontainer{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     width: 40%; 
+     /* display: grid; */
+     height: 300px; 
+      display: block;
+     background-color: rgb(239, 239, 239);
+   
+
+}
+.img{
+   
+    margin-left: 9px;
+}
+.btn1{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    left: 17px;
+    width: 20%;
+    margin-left: 35px;
+    margin-top: 251px;
+}
+.btn2{
+
+        background-color: blueviolet;
+        color: white;
+        border-radius: 20px;
+        left: 17px;
+        width: 20%;
+        margin-left: 273px;
+        margin-top: -165px;
+
+}
